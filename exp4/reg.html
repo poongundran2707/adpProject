@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html >
+<head>
+    
+    <title>REGESTRATION</title>
+</head>
+<body>
+    <h1><center>REGISTRATION</center></h1>
+
+    <form action="/submit_form" method="POST">
+        
+        <label for="name">Full Name:</label>
+        <input type="text" placeholder="enter name" id="name" name="name" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" placeholder="enter email" id="email" name="email" required><br><br>
+
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" placeholder="enter no" id="phone" name="phone"><br><br>
+
+        <label for="fgender">Gender:</label><br>
+        <input type="checkbox" id="fgender" name="fgender" value="gender">
+        <label for="fgender">Male</label><br>
+        <input type="checkbox" id="fgender" name="fgender" value="gender">
+        <label for="fgender">Female</label><br>
+        <input type="checkbox" id="fgender" name="fgender" value="gender">
+        <label for="fgender">Others</label><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" placeholder="enter current address" name="address" rows="4" cols="50"></textarea><br><br>
+
+        
+        <label for="contact">Preferred Contact Method:</label><br>
+        <input type="radio" id="email_contact" name="contact" value="email">
+        <label for="email_contact">Email</label><br>
+        <input type="radio" id="phone_contact" name="contact" value="phone">
+        <label for="phone_contact">Phone</label><br><br>
+
+       
+        <label for="membership">Membership Type:</label><br>
+        <select id="membership" name="membership">
+            <option value="basic">Basic</option>
+            <option value="premium">Premium</option>
+            <option value="vip">VIP</option>
+        </select><br><br>
+
+        
+        <button type="submit">Enroll</button>
+    </form>
+
+</body>
+</html>
